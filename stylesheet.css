@@ -1,12 +1,19 @@
+body {
+  margin: 0;
+}
+
 .container {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header {
     display: flex;
     flex-direction: column;
+    flex: 1.5;
+    border: solid 1px;
+    background-color: #1F2937;
 }
 
 .header-top {
@@ -23,9 +30,35 @@
     flex-direction: column;
 }
 
+.header-text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.header-hero-text,
+.links,
+.image-placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-hero {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
 .middle-top {
     display: flex;
     flex-direction: column;
+    flex: 1.2;
+    border: solid 1px;
+}
+
+.middle-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .middle-top-cards {
@@ -35,10 +68,28 @@
 .quote {
     display: flex;
     flex-direction: column;
+    flex: 1.2;
+    background-color: #E5E7EB;
+    border: solid 1px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 800;
+    color: #1F2937;
+    font-size: 18px;
 }
 
 .signup {
     display: flex;
+    flex: 1;
+    border: solid 1px;
+    background-color: #3882F6;
 }
 
 .signup-text {
@@ -51,4 +102,10 @@
     margin-top: auto;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
 }
+
+button {
+    background-color: #3882F6;
+}
+
